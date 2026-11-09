@@ -27,7 +27,7 @@ const interactionGap = 40; // 設定兩個角色外緣相隔多少像素時觸�
 function preload() { // 在畫布啟動前載入所有角色與背景圖片。
   idleSheet = loadImage("1/stop/stop.png"); // 載入角色 1 的 14 格站立動畫。
   runSheet = loadImage("1/run/run.png"); // 載入角色 1 的 12 格跑步動畫。
-  backgroundImage = loadImage("bg/bg1.png"); // 載入 bg 資料夾中的背景圖片。
+  backgroundImage = loadImage("bg/bg2.png"); // 載入 bg 資料夾中的 bg2.png 背景圖片。
   character2StopSheet = loadImage("2/stop/stop.png"); // 載入角色 2 的 5 格站立動畫。
   character2CorrectSheet = loadImage("2/correct/correct.png"); // 載入角色 2 的 12 格答對動畫。
   character2IncorrectSheet = loadImage("2/incorrect/incorrect.png"); // 載入角色 2 的 6 格答錯動畫。
